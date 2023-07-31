@@ -1,6 +1,8 @@
+import { Loader } from "../Loader";
+
  function TodosLoading() {
   return(
-    <p>Estamos cargando... 🐒</p>
+    <Loader></Loader>
   );
  }
 
